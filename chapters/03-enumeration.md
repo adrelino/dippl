@@ -3,7 +3,7 @@ layout: chapter
 title: Exploring the executions of a random computation
 description: Implementing marginal inference by enumeration using continuations, coroutines, and CPS.
 custom_js:
-  /assets/js/transform.js
+  ../assets/js/transform.js
 ---
 
 All inference techniques involve exploring the space of executions of a random computation in one way or another. In this section we consider how the many paths through a computation can be explored, aiming for an implementation that computes the marginal distribution of a computation by *enumerating* all possible executions.

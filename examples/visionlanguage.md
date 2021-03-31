@@ -290,7 +290,7 @@ var speaker = function(img) {
 }
 
 // var targetImage = Draw(200, 200, true);
-// loadImage(targetImage, "/assets/img/some_sq_blue.png")
+// loadImage(targetImage, "../assets/img/some_sq_blue.png")
 var _f = uniformDraw(imageDataset)
 print(_f[0])
 var targetImage = Draw(200, 200, true);

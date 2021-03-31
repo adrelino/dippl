@@ -76,7 +76,7 @@ var lines = makeRectangles(4, []);
 drawRectangles(lines);
 ///
 var targetImage = Draw(200, 200, true);
-loadImage(targetImage, "/assets/img/boxes.png");
+loadImage(targetImage, "../assets/img/boxes.png");
 
 myDraw.distance(targetImage);
 ~~~~
@@ -85,7 +85,7 @@ Inferring rectangles that match the target image:
 
 ~~~~
 var targetImage = Draw(200, 200, false);
-loadImage(targetImage, "/assets/img/boxes.png")
+loadImage(targetImage, "../assets/img/boxes.png")
 var makeRectangles = function(n, lines, prevScore){
   var x1 = randomInteger(200);
   var y1 = randomInteger(200);

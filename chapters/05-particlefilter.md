@@ -3,7 +3,7 @@ layout: chapter
 title: Particle Filtering
 description: Models with continuous variables, importance sampling, and sequential Monte Carlo.
 custom_js:
-  /assets/js/draw.js
+  ../assets/js/draw.js
 ---
 
 
@@ -20,7 +20,7 @@ In this example, we are trying to compute the posterior distribution on lines ba
 
 ~~~~
 var targetImage = Draw(50, 50, true);
-loadImage(targetImage, "/assets/img/box.png")
+loadImage(targetImage, "../assets/img/box.png")
 ~~~~
 
 Let's look at the samples that enumeration explores first:
@@ -28,7 +28,7 @@ Let's look at the samples that enumeration explores first:
 ~~~~
 ///fold:
 var targetImage = Draw(50, 50, false);
-loadImage(targetImage, "/assets/img/box.png")
+loadImage(targetImage, "../assets/img/box.png")
 ///
 
 var drawLines = function(drawObj, lines){
